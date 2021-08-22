@@ -1,0 +1,113 @@
+/*------------------------------------------------------------*/
+/*-------- BASIC SETUP ------------ */
+/*------------------------------------------------------------*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+body{
+      background:-webkit-gradient(linear,left top, right bottom,from(#67b26f), to(#4ca2cd));
+      background:linear-gradient(to bottom right,#67b26f, #4ca2cd);
+      background-size: cover;
+}
+
+
+
+
+/*------------------------------------------------------------*/
+/*-------- PAGE SETUP ------------ */
+/*------------------------------------------------------------*/
+
+
+.cans{
+    margin: 10px;
+    background:-webkit-gradient(linear, left top, right bottom, from(rgba(255, 0, 0, 0.6)), to(rgba(255, 255, 0, 0.6)));
+    background:linear-gradient(to bottom right, rgba(255, 0, 0, 0.6), rgba(255, 255, 0, 0.6));
+    background-size: cover;
+    width: 600px;
+    height: 300px;
+    border: 20px solid #000000;
+}
+
+div{
+  text-align:center;
+}
+
+h1{
+    margin-top: 20px;
+    color: black;
+}
+
+#p1{
+  font-family: verdana;
+  font-size: 100%;
+  text-align: center;
+  color: red;
+  margin-bottom: 10px;
+}
+
+#im{
+  width:350px;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+#gs,
+#bf{
+    margin: 10px 0;
+    border-radius:15px;
+    border-color:#000000;
+    height:25px;
+    cursor: pointer;
+    padding: 5px;
+    background-color: white;
+    color: orangered;
+    font-weight: 33%;
+}
+
+#p2,
+#p3{
+    font-size: 100%;
+    color: black;
+}
+
+
+#gs:hover,
+#bf:hover{
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+
+.nav-button {
+	margin-bottom: 0px;
+    padding: 0px;
+    margin-top: 15px;
+}
+
+.nav-button sec {
+	padding: 20px;
+    margin-bottom: 10px;
+}
+
+.main-nav {
+	list-style: none;
+    
+    
+}
+
+.main-nav li{
+    margin-top: 1px;
+    display: inline-block;
+    margin-left: 20px;
+}

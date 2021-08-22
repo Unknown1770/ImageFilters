@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" This site allows you to apply different colour as well as different border filters on the Uploaded Image" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="query.css">
+     
+    <title> IMAGE FILTERS BY VIJAYANT</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    
+  </head>
+<body>
+
+  <div id="d1">
+     <h1> <b> IMAGE FILTER </b></h1>
+     <canvas class = "cans" id="can"> </canvas>
+  </div>
+      <p id="p1"><b> Load Image:</b>
+      <input type = "file" multiple = "false" accept = "image/*" id = "im" onchange = "loadImage()">
+      </p>
+    <div class="nav-button">
+          <p id="p2" class="filter"> <b>COLOUR FILTERS: </b>
+          <a class="mobile-nav-icon js--nav-icon"> <i class="ion-navicon-round"></i> </a>
+          </p>
+          <div>
+              <ul class="main-nav js--main-nav">
+                  <li> <input type="button" value="GrayScale Filter"  onclick = "GrayScale()" id ="gs"> </li>
+                  <li> <input type="button" value="Red Filter" onclick = "Red()" id = "gs"> </li>
+                  <li> <input type="button" value="Green Filter" onclick = "Green()" id = "gs"> </li>
+                  <li> <input type="button" value="Blue Filter"  onclick = "Blue()" id = "gs"> </li>
+                  <li> <input type="button" value="Rainbow Filter" onclick = "Rainbow()" id = "gs"> </li>
+                  <li> <input type="button" value="Restore Defaults" onclick = "Restore()" id = "gs"> </li>   
+                  <li> <input type="button" value="Clear canvas" onclick = "Clear()" id = "gs"> </li>
+              </ul>
+          </div>
+          
+    </div>
+    
+    <div class="nav-button sec">
+       <p id ="p3">
+           <b> BORDER FILTERS: </b>
+       </p>
+       <div>
+           <ul class="main-nav js--main-nav">
+               <li> <input type="button" value="Window Pane" onclick = "Window()" id = "bf"> </li>
+               <li> <input type="button" value="Diagonal Border" onclick = "Diagonal()" id = "bf"> </li>
+               <li> <input type="button" value="Blurr Image" onclick = "Blur()" id="bf" > </li>
+           </ul>
+       </div>
+      
+    </div>  
+    
+    
+    <script src="script.js"></script>
+    <script src="support.js"></script>
+    </body>
+</html>
+          
+                
+      

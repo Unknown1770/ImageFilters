@@ -1,0 +1,43 @@
+
+/*-------------------------------------- NORMAL VIEW--------------------------------------*/
+@media only screen and (max-width: 1300px){
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row{ padding: 0 2%; }
+}
+
+
+/*-------------------------------------- WIDTH 1024 PIXEL--------------------------------------*/
+
+@media only screen and (max-width: 1024px){
+    body{
+        font-size: 18px;
+    }
+    
+}
+
+
+/*-------------------------------------- WIDTH 767 PIXEL--------------------------------------*/
+
+@media only screen and (max-width: 767px){
+    body{ font-size:16px;}
+    .cans{ 
+        width: 85%;
+        height: 85%;
+        padding: 10px 0;
+        margin-left: 0;
+    } 
+    #im{width: 80%;}
+}
+
+
+/*-------------------------------------- WIDTH 480 PIXEL--------------------------------------*/
+
+@media only screen and (max-width: 480px){
+    .cans{ width: 80%; height: 80;}
+    #im{width: 80%;}
+    
+}
